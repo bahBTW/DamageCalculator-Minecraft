@@ -1,0 +1,15 @@
+name: BalanceamentoPlugin
+version: 1.0
+main: br.dev.bahbtw.balanceamento.BalanceamentoPlugin
+commands:
+  balance:
+    description: Calculate balanced weapon damage
+  compare:
+    description: Compare weapon damage with armor set
+permissions:
+  balance.use:
+    description: Allows usage of /balance command
+    default: op
+  compare.use:
+    description: Allows usage of /compare command
+    default: op

@@ -1,0 +1,3 @@
+permissions:
+  balancear: 'balancear.use'
+  comparar: 'comparar.use'
